@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtNameExert"
+                style="@style/Edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/nameEx"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtHour"
+            style="@style/Edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/hour"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtMinute"
+            style="@style/Edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/minute"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edtKcal"
+            style="@style/Edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/kcal"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@android:color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            fancy:fb_borderColor="#9E9D24"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="#DCE775"
+            fancy:fb_focusColor="#C0CA33"
+            fancy:fb_radius="10dp"
+            fancy:fb_text="@string/save"
+            fancy:fb_textColor="#827717" />
+    </LinearLayout>

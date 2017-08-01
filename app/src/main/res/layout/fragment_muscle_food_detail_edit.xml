@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNameFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:text="ข้าวแกงระหรี่"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/spNumbers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:prompt="@string/numbers_prompt" />
+
+        <Spinner
+            android:id="@+id/spUnitFood"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtNbCal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="21sp"
+                android:text="352"
+                style="@style/mar"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/kcal"
+                android:textSize="21sp"
+                style="@style/mar"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/fat"
+                    android:textSize="17sp"
+                    style="@style/mar"/>
+
+                <TextView
+                    android:id="@+id/txtFat"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="12"
+                    style="@style/mar"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/protein"
+                    android:textSize="17sp"
+                    style="@style/mar"/>
+
+                <TextView
+                    android:id="@+id/txtProtein"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="12.3"
+                    android:textSize="17sp"
+                    style="@style/mar"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="@string/carb"
+                    android:textSize="17sp"
+                    style="@style/mar"/>
+
+                <TextView
+                    android:id="@+id/txtCarb"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="17sp"
+                    android:text="0.25"
+                    style="@style/mar"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_margin="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            fancy:fb_borderColor="#9E9D24"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="#DCE775"
+            fancy:fb_focusColor="#C0CA33"
+            fancy:fb_radius="10dp"
+            fancy:fb_text="@string/edit"
+            fancy:fb_textColor="#827717"
+            android:layout_gravity="center_horizontal"/>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnDel"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_margin="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            fancy:fb_borderColor="#9E9D24"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="#DCE775"
+            fancy:fb_focusColor="#C0CA33"
+            fancy:fb_radius="10dp"
+            fancy:fb_text="@string/del"
+            fancy:fb_textColor="#827717"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

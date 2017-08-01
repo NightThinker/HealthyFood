@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            style="@style/Question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Veget" />
+
+
+    <RadioGroup
+        android:id="@+id/rgVegetarian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbLactoOvo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LactoOvoVegetarian" />
+
+        <RadioButton
+            android:id="@+id/rbLacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LactoVegetarian" />
+
+        <RadioButton
+            android:id="@+id/rbOvo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/OvoVegetarian" />
+
+        <RadioButton
+            android:id="@+id/rbVegan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Vegan" />
+
+
+    </RadioGroup>
+
+
+
+
+
+</LinearLayout>

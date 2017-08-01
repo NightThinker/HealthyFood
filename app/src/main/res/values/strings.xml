@@ -1,0 +1,246 @@
+<resources>
+    <string name="app_name">Healthy Food</string>
+
+    <string name="strat">GET STARTED</string>
+
+    <string name="next">ถัดไป</string>
+
+    <string name="gender">โปรดเลือกเพศของคุณ</string>
+
+    <string name="tellme">กรุณาบอกข้อมูลของท่าน</string>
+    <string name="start_weight">น้ำหนัก</string>
+    <string name="kilograms">กิโลกรัม</string>
+
+    <string name="hour">ชั่วโมง</string>
+    <string name="minute">นาที</string>
+
+    <string name="height">ส่วนสูง</string>
+    <string name="centimeters">เซนติเมตร</string>
+
+    <string name="age">อายุ</string>
+    <string name="years">ปี</string>
+
+    <string name="exercise">โปรดเลือกกิจกรรม</string>
+    <string name="sedentary_exercise">ไม่ออกกำลังกายเลย หรือ ออกกำลังกายน้อยมาก</string>
+    <string name="light_exercise">ออกกำลังกายน้อย เล่นกีฬา 1–3 วันต่อสัปดาห์ </string>
+    <string name="moderate_exercise">ออกกำลังกายปานกลาง เล่นกีฬา 3–5 วันต่อสัปดาห์</string>
+    <string name="hard_exercise">ออกกำลังกายหนัก เล่นกีฬา 6–7 วันต่อสัปดาห์</string>
+    <string name="very_hard_exercise">ออกกำลังกายหนักมาก เป็นนักกีฬา</string>
+
+
+    <string name="FoodAllergy">คุณแพ้อาหารชนิดใดบ้าง</string>
+    <string name="Allergy">คุณแพ้อาหารหรือไม่</string>
+    <string name="yes">แพ้อาหาร</string>
+    <string name="no">ไม่แพ้อาหาร</string>
+
+
+    <string name="Veget">คุณทานมังสวิรัติหรือไม่</string>
+    <string name="yesVeget">ทาน</string>
+    <string name="noVeget">ไม่ทาน</string>
+
+
+    <string name="Vegetarian">คุณทานมังสวิรัติประเภทไหน</string>
+    <string name="LactoOvoVegetarian">นักมังสวิรัติที่กินนมและไข่</string>
+    <string name="LactoVegetarian">นักมังสวิรัติที่ดื่มนม</string>
+    <string name="OvoVegetarian">นักมังสวิรัติที่กินไข่</string>
+    <string name="Vegan">นักมังสวิรัติบริสุทธิ์</string>
+
+
+
+
+    <string name="GoalWeight">กรอกน้ำหนักที่ต้องการ</string>
+    <string name="GoalBodyFat">กรอกเปอร์เซ็นไขมันที่ต้องการ</string>
+
+
+    <string name="lose">เลือกแผนการลดน้ำหนัก</string>
+    <string name="lose_two">ลดน้ำหนัก 0.2 กิโลต่อสัปดาห์</string>
+    <string name="lose_three">ลดน้ำหนัก 0.3 กิโลต่อสัปดาห์</string>
+    <string name="lose_four">ลดน้ำหนัก 0.4 กิโลต่อสัปดาห์</string>
+    <string name="lose_five">ลดน้ำหนัก 0.5 กิโลต่อสัปดาห์</string>
+
+
+    <string name="maintain">Maintain weight</string>
+
+    <string name="gain">เลือกแผนการเพิ่มน้ำหนัก</string>
+    <string name="gain_two">เพิ่มน้ำหนัก 0.2 กิโลต่อสัปดาห</string>
+    <string name="gain_three">เพิ่มน้ำหนัก 0.3 กิโลต่อสัปดาห</string>
+    <string name="gain_four">เพิ่มน้ำหนัก 0.4 กิโลต่อสัปดาห</string>
+    <string name="gain_five">เพิ่มน้ำหนัก 0.5 กิโลต่อสัปดาห</string>
+
+    <string name="bodyfat">โปรดกรอกเปอร์เซ็นไขมันของคุณ</string>
+    <string name="percent">เปอร์เซ็น</string>
+
+    <string name="muscle_exercise">เลือกระดับการออกกำลังของคุณในวันนี้</string>
+    <string name="no_ex">ไม่ออกกำลังกาย</string>
+    <string name="ex">ออกกำลังกาย</string>
+
+    <string name="selected">เลือกความต้องการของคุณ</string>
+    <string name="normal">ธรรมดา</string>
+    <string name="muscle">เพิ่มกล้ามเนื้อ</string>
+
+
+    <string name="type_muscle">โปรดเลือกเป้าหมาย</string>
+    <string name="fatloss">ลดไขมัน</string>
+    <string name="gainmuscle">เพิ่มกล้ามเนื้อ</string>
+
+
+
+    <string name="health">วันนี้สุขภาพของคุณเป็นอย่างไรบ้าง</string>
+    <string name="wonderful.">สบายดี</string>
+    <string name="sick">ป่วย</string>
+
+    <string-array name="tabs">
+        <item>tab 1</item>
+        <item>tab 2</item>
+        <item>tab 3</item>
+        <item>tab 4</item>
+    </string-array>
+
+    <string-array name="my_data_List">
+        <item>data 1</item>
+        <item>data 2</item>
+        <item>data 3</item>
+        <item>data 4</item>
+    </string-array>
+
+    <string name="numbers_prompt">เลือกสิ</string>
+    <string-array name="numbers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="hour">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="number">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+    </string-array>
+
+    <string-array name="minute">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+    </string-array>
+    <string name="spinner_title">หน่วย</string>
+    <string name="name">ชื่ออาหาร</string>
+    <string name="kcal">กิโลแคลอรี่</string>
+    <string name="fat">ไขมัน</string>
+    <string name="carb">คาร์โบไฮเดรต</string>
+    <string name="protein">โปรตีน</string>
+
+
+    <string name="nameEx">ชื่อการออกกำลังกาย</string>
+
+    <string name="save">บันทึก</string>
+    <string name="edit">แก้ไข</string>
+    <string name="del">ลบ</string>
+
+    //log
+    <string name="budget">แคลอรี่</string>
+    <string name="food">อาหาร</string>
+    <string name="exerciseValue">เผาผลาญ</string>
+    <string name="net">สุทธิ</string>
+    <string name="under">เกิน</string>
+
+    <string name="create">สร้างเมนูอาหาร</string>
+    <string name="weight">โปรดกรอกน้ำหนักของวันนี้</string>
+
+    <string name="CreateExert">สร้างรายการการออกกำลังกาย</string>
+
+    <string name="fastfood">อาหารจานเดียว/กับข้าว</string>
+    <string name="sweet">ของหวาน</string>
+    <string name="fruit">ผลไม้</string>
+    <string name="drink">เครื่องดื่ม</string>
+    <string name="supermarket">ซุปเปอร์มาร์เก็ต</string>
+    <string name="other">อื่นๆ</string>
+
+    <string name="Weight">น้ำหนัก</string>
+    <string name="BodyFat">ไขมันในร่างกายและน้ำหนัก</string>
+
+
+</resources>

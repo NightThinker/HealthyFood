@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtNameFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/name"
+                android:inputType="text"
+                style="@style/Edt"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/spUnit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:prompt="@string/spinner_title" />
+        <Spinner
+            android:id="@+id/spBrand"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:prompt="@string/spinner_title" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtCal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/kcal"
+                android:inputType="number"
+                style="@style/Edt"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtFat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/fat"
+                android:inputType="number"
+                android:singleLine="true"
+                style="@style/Edt"
+                android:textColor="@android:color/black" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtProtein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/protein"
+                android:inputType="number"
+                style="@style/Edt"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtCarb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="@string/carb"
+                android:inputType="number"
+                style="@style/Edt"
+                android:singleLine="true"
+                android:textColor="@android:color/black" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btnEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="10dp"
+                fancy:fb_borderColor="#9E9D24"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_defaultColor="#DCE775"
+                fancy:fb_focusColor="#C0CA33"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="@string/edit"
+                fancy:fb_textColor="#827717" />
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btnDel"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="20dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="10dp"
+                fancy:fb_borderColor="#9E9D24"
+                fancy:fb_borderWidth="2dp"
+                fancy:fb_defaultColor="#DCE775"
+                fancy:fb_focusColor="#C0CA33"
+                fancy:fb_radius="10dp"
+                fancy:fb_text="@string/del"
+                fancy:fb_textColor="#827717" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

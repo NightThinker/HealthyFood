@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <EditText
+                android:id="@+id/edtAllergy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="เพิ่มอาหารที่แพ้"
+                style="@style/Edt"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnSave"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="10dp"
+            fancy:fb_borderColor="#9E9D24"
+            fancy:fb_borderWidth="2dp"
+            fancy:fb_defaultColor="#DCE775"
+            fancy:fb_focusColor="#C0CA33"
+            fancy:fb_radius="10dp"
+            fancy:fb_text="เพิ่ม"
+            fancy:fb_textColor="#827717" />
+    </LinearLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/lvAllergyList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mo.healthyfood">
+
+    <application
+        android:name=".MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.IntroActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.QuestionActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".activityNormal.TodayNormalQuestionActivity" />
+        <activity android:name=".activityMuscle.TodayMuscleQuestionActivity" />
+        <activity android:name=".activityNormal.QuestionNormalActivity" />
+        <activity android:name=".activityMuscle.QuestionMuscleActivity" />
+
+        <activity android:name=".activity.QuestionSelectActivity" />
+
+        <activity android:name=".activityNormal.MainNormalActivity" />
+
+        <activity android:name=".activityMuscle.MainMuscleActivity" />
+        <activity android:name=".activityNormal.AddNormalActivity" />
+        <activity android:name=".activityMuscle.AddMuscleActivity" />
+        <activity android:name=".activityMuscle.BodyFatQuestionActivity" />
+        <activity android:name=".activityMuscle.BodyFatActivity" />
+        <activity android:name=".activityMuscle.FoodMuscleActivity" />
+        <activity android:name=".activityMuscle.ShowFoodMuscleActivity" />
+        <activity android:name=".activityMuscle.CreateFoodMuscleActivity" />
+        <activity android:name=".activityNormal.FoodNormalActivity" />
+        <activity android:name=".activityNormal.ShowFoodNormalActivity" />
+        <activity android:name=".activityNormal.CreateFoodNormalActivity" />
+        <activity android:name=".activity.WeightActivity" />
+        <activity android:name=".activity.ExerciseActivity" />
+        <activity android:name=".activity.ShowExerciseActivity" />
+        <activity android:name=".activity.CreateExerciseActivity" />
+        <activity android:name=".activity.CalendarActivity"/>
+        <activity android:name=".activityMuscle.EditShowFoodMuscleActivity"/>
+        <activity android:name=".activityNormal.EditShowFoodNormalActivity"/>
+        <activity android:name=".activity.EditShowExerciseActivity"/>
+        <activity android:name=".activityMuscle.ShowListFoodMuscleActivity"/>
+        <activity android:name=".activityNormal.ShowFoodListNormalActivity"/>
+
+
+        <receiver android:name=".AlarmNotificationReceiver" />
+        <receiver android:name=".AlarmToastReceiver" />
+    </application>
+
+</manifest>

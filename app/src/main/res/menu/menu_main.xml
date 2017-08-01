@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_muscle"
+        android:title="เปลี่ยนเป้าหมาย่"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_calendar"
+        android:icon="@drawable/xperia_calendar_icon"
+        android:title="ปฏิทิน"
+        app:showAsAction="always"
+        />
+
+
+</menu>
